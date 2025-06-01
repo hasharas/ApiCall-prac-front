@@ -52,10 +52,12 @@ const Form = ({ onSubmit, }) => {
                               className='border p-2 w-[300px] rounded-md'
                               onChange={handleChange} />
 
-                        <div className='w-[300px] h-[100px] flex align-middle justify-center items-center text-gray-200 rounded p-3 bg-gray-300'>
-                              <img src={user.image} alt="image" />
+                        <div className='w-[300px] h-[100px] flex align-middle justify-center items-center cursor-pointer text-blue-500 rounded p-3 bg-gray-300'>
+
                               + Add image
                         </div>
+
+                        <button className='p-3 w-[300px] bg-blue-500 rounded-md text-white'>Submit</button>
 
                   </form>
             </div>
